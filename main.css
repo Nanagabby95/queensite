@@ -468,6 +468,9 @@ ion-icon{
 #sm-banner img{
   width: 400px !important;
 }
+.logolabel{
+  padding-left: 30px;
+}
 
   @media (max-width: 576px) {
     .about-image img {
@@ -497,6 +500,7 @@ ion-icon{
     .logolabel{
       font-size: 25px !important;
       padding: 0 !important;
+
     }
    .menu{
     margin-right:  60px !important;
