@@ -43,7 +43,7 @@ button.normal{
     transition: 0.2s;
 }
 .section-p1{
-    padding: 40px 80px;
+    padding: 80px;
 }
 .section-m1{
     margin:40px 0;
@@ -146,6 +146,7 @@ justify-content: space-between;
 .hero-btn{
     background: linear-gradient(to bottom right, #FFC107, #000000);
     padding: 15px 25px;
+    /* background-color:red !important; */
     border: none;
     border-radius: 70% / 8px;
     cursor: pointer;
@@ -374,6 +375,9 @@ ion-icon{
     font-size: 14px;
     margin: 0 0 8px 0;
   }
+  footer a{
+    color: gray !important;
+  }
   .col{
     display: flex;
     flex-wrap: wrap;
@@ -405,7 +409,7 @@ ion-icon{
   }
   
   .about-image img {
-    width: 100%;
+    width: 50%;
     max-width: 500px;
     height: auto;
     border-radius: 90%;
@@ -442,7 +446,7 @@ ion-icon{
     
   }
   .call-about-div{
-    text-align: center !important;
+    text-align: left !important;
     
   }
   .hamburger .menu{
@@ -526,7 +530,7 @@ ion-icon{
       top: 70px;
       gap: 0;
       flex-direction: column;
-      background-color: #b48805;
+      background-color: #ebb104;
       width: 100%;
       text-align: center;
       transition: 0.3s;
